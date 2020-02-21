@@ -1,0 +1,296 @@
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background-color: #d3d3d3;
+}
+.nav-link{
+    color: #000000;
+}
+#mapDiv{
+    height: 90vh;
+}
+#title{
+    text-align: center;
+}
+.pane{
+    background-color: none;
+    fill: none;
+    stroke-width: 1px;
+    opacity: 1;
+}
+
+/* Team paths colors */
+.Astros{
+    stroke: #ea6e24;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.As{
+    stroke: #013831;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Diamondbacks{
+    stroke: #a71e31;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Braves{
+    stroke: #16284f;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Orioles{
+    stroke: #dd4926;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.RedSox{
+    stroke: #bd3139;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Cubs{
+    stroke: #273b81;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.WhiteSox{
+    stroke: #c4ced3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Reds{
+    stroke: #c62127;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Indians{
+    stroke: #e21d38;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Rockies{
+    stroke: #37246b;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Tigers{
+    stroke: #182d55;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Royals{
+    stroke: #174885;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Angels{
+    stroke: #ba2026;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Dodgers{
+    stroke: #005a9c;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Marlins{
+    stroke: #41748d;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Brewers{
+    stroke: #b5922f;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Twins{
+    stroke: #1a2e5a;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Mets{
+    stroke: #002d72;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Yankees{
+    stroke: #122448;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Phillies{
+    stroke: #e71d2a;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Pirates{
+    stroke: #fdb724;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Padres{
+    stroke: #1e3160;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Giants{
+    stroke: #8b6f4e;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Mariners{
+    stroke: #025d5d;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Cardinals{
+    stroke: #c4203b;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Rays{
+    stroke: #90bce4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Rangers{
+    stroke: #233974;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.BlueJays{
+    stroke: #1e2e5c;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.Nationals{
+    stroke: #212759;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Team circle colors */
+.AstrosPoint{
+    stroke: #ea6e24;
+    fill: #ea6e24;
+}
+.AsPoint{
+    stroke: #013831;
+    fill: #013831;
+}
+.DiamondbacksPoint{
+    stroke: #a71e31;
+    fill: #a71e31;
+}
+.BravesPoint{
+    stroke: #16284f;
+    fill: #16284f;
+}
+.OriolesPoint{
+    stroke: #dd4926;
+    fill: #dd4926;
+}
+.RedSoxPoint{
+    stroke: #bd3139;
+    fill: #bd3139;
+}
+.CubsPoint{
+    stroke: #273b81;
+    fill: #273b81;
+}
+.WhiteSoxPoint{
+    stroke: #c4ced3;
+    fill: #c4ced3;
+}
+.RedsPoint{
+    stroke: #c62127;
+    fill: #c62127;
+}
+.IndiansPoint{
+    stroke: #e21d38;
+    fill: #e21d38;
+}
+.RockiesPoint{
+    stroke: #37246b;
+    fill: #37246b;
+}
+.TigersPoint{
+    stroke: #182d55;
+    fill: #182d55;
+}
+.RoyalsPoint{
+    stroke: #174885;
+    fill: #174885;
+}
+.AngelsPoint{
+    stroke: #ba2026;
+    fill: #ba2026;
+}
+.DodgersPoint{
+    stroke: #005a9c;
+    fill: #005a9c;
+}
+.MarlinsPoint{
+    stroke: #41748d;
+    fill: #41748d;
+}
+.BrewersPoint{
+    stroke: #b5922f;
+    fill: #b5922f;
+}
+.TwinsPoint{
+    stroke: #1a2e5a;
+    fill: #1a2e5a;
+}
+.MetsPoint{
+    stroke: #002d72;
+    fill: #002d72;
+}
+.YankeesPoint{
+    stroke: #122448;
+    fill: #122448;
+}
+.PhilliesPoint{
+    stroke: #e71d2a;
+    fill: #e71d2a;
+}
+.PiratesPoint{
+    stroke: #fdb724;
+    fill: #fdb724;
+}
+.PadresPoint{
+    stroke: #1e3160;
+    fill: #1e3160;
+}
+.GiantsPoint{
+    stroke: #8b6f4e;
+    fill: #8b6f4e;
+}
+.MarinersPoint{
+    stroke: #025d5d;
+    fill: #025d5d;
+}
+.CardinalsPoint{
+    stroke: #c4203b;
+    fill: #c4203b;
+}
+.RaysPoint{
+    stroke: #90bce4;
+    fill: #90bce4;
+}
+.RangersPoint{
+    stroke: #233974;
+    fill: #233974;
+}
+.BlueJaysPoint{
+    stroke: #1e2e5c;
+    fill: #1e2e5c;
+}
+.NationalsPoint{
+    stroke: #212759;
+    fill: #212759;
+}
